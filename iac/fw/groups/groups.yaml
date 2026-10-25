@@ -1,0 +1,73 @@
+groups:
+  INB-OCPBM_APISERVER-<ES>:
+    members:
+    - bmcl11_apiserver.inb
+    - bmcl12_apiserver.inb
+  INB-OCPBM_L7_INGRESS-<ES>:
+    members:
+    - bmcl11_l7ingress.inb
+    - bmcl13_l7ingress.inb
+  INB-OCPBM_MASTER_NODES-<ES>:
+    members:
+    - bmcl11_masternodes.inb
+    - bmcl12_masternodes.inb
+    - bmcl13_masternodes.inb
+  INB-OCPBM_NODES-<ES>:
+    members:
+    - bmcl11_nodes.inb
+    - bmcl12_nodes.inb
+    - bmcl13_nodes.inb
+  INB-OCP_MASTER_NODES-<ES>:
+    members:
+    - cl11_masternodes.inb
+    - cl12_masternodes.inb
+    - cl13_masternodes.inb
+  INB-OCP_NODES-<ES>:
+    members:
+    - cl11_nodes.inb
+    - cl12_nodes.inb
+    - cl13_nodes.inb
+  INB-OCP_L7_INGRESS-<ES>:
+    members:
+    - cl11_l7ingress.inb
+    - cl13_l7ingress.inb
+  NL-OCPBM_APISERVER-<ES>:
+    members:
+    - bmcl01_apiserver.nl
+    - bmcl02_apiserver.nl
+    - bmcl03_apiserver.nl
+  NL-OCPBM_L7_INGRESS-<ES>:
+    members:
+    - bmcl01_l7ingress.nl
+    - bmcl02_l7ingress.nl
+    - bmcl03_l7ingress.nl
+  NL-OCPBM_MASTER_NODES-<ES>:
+    members:
+    - bmcl01_masternodes.nl
+    - bmcl02_masternodes.nl
+    - bmcl03_masternodes.nl
+  NL-OCPBM_NODES-<ES>:
+    members:
+    - bmcl01_nodes.nl
+    - bmcl02_nodes.nl
+    - bmcl03_nodes.nl
+  NL-OCP_APISERVER-<ES>:
+    members:
+    - cl01_apiserver.nl
+    - cl02_apiserver.nl
+    - cl03_apiserver.nl
+  NL-OCP_L7_INGRESS-<ES>:
+    members:
+    - cl01_l7ingress.nl
+    - cl02_l7ingress.nl
+    - cl03_l7ingress.nl
+  NL-OCP_MASTER_NODES-<ES>:
+    members:
+    - cl01_masternodes.nl
+    - cl02_masternodes.nl
+    - cl03_masternodes.nl
+  NL-OCP_NODES-<ES>:
+    members:
+    - cl01_nodes.nl
+    - cl02_nodes.nl
+    - cl03_nodes.nl

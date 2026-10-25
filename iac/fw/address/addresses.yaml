@@ -1,0 +1,89 @@
+addresses:
+  cl01_apiserver.nl:
+    ip: 10.10.1.6
+  cl01_l7ingress.nl:
+    ip: 10.10.1.7
+  cl02_apiserver.nl:
+    ip: 10.10.2.6
+  cl02_l7ingress.nl:
+    ip: 10.10.2.7
+  cl03_apiserver.nl:
+    ip: 10.10.3.6
+  cl03_l7ingress.nl:
+    ip: 10.10.3.7
+  cl11_apiserver.inb:
+    ip: 10.10.11.6
+  cl11_l7ingress.inb:
+    ip: 10.10.11.7
+  cl12_apiserver.inb:
+    ip: 10.10.12.6
+  cl13_l7ingress.inb:
+    ip: 10.10.13.7
+  bmcl01_apiserver.nl:
+    ip: 10.11.1.6
+  bmcl01_l7ingress.nl:
+    ip: 10.11.1.7
+  bmcl02_apiserver.nl:
+    ip: 10.11.2.6
+  bmcl02_l7ingress.nl:
+    ip: 10.11.2.7
+  bmcl03_apiserver.nl:
+    ip: 10.11.3.6
+  bmcl03_l7ingress.nl:
+    ip: 10.11.3.7
+  bmcl11_apiserver.inb:
+    ip: 10.11.11.6
+  bmcl11_l7ingress.inb:
+    ip: 10.11.11.7
+  bmcl12_apiserver.inb:
+    ip: 10.11.12.6
+  bmcl12_nodes.inb:
+    subnet: 10.11.12.0/24
+  bmcl13_l7ingress.inb:
+    ip: 10.11.13.7
+  cl01_nodes.nl:
+    subnet: 10.10.1.0/24
+  cl02_nodes.nl:
+    subnet: 10.10.2.0/24
+  cl03_nodes.nl:
+    subnet: 10.10.3.0/24
+  cl11_nodes.inb:
+    subnet: 10.10.11.0/24
+  cl12_nodes.inb:
+    subnet: 10.10.12.0/24
+  cl13_nodes.inb:
+    subnet: 10.10.13.0/24
+  bmcl01_nodes.nl:
+    subnet: 10.11.1.0/24
+  bmcl02_nodes.nl:
+    subnet: 10.11.2.0/24
+  bmcl03_nodes.nl:
+    subnet: 10.11.3.0/24
+  bmcl11_nodes.inb:
+    subnet: 10.11.11.0/24
+  bmcl13_nodes.inb:
+    subnet: 10.11.13.0/24
+  cl01_masternodes.nl:
+    subnet: 10.10.1.11-10.10.1.13
+  cl02_masternodes.nl:
+    subnet: 10.10.2.11-10.10.2.13
+  cl03_masternodes.nl:
+    subnet: 10.10.3.11-10.10.3.13
+  cl11_masternodes.inb:
+    subnet: 10.10.11.11-10.10.11.13
+  cl12_masternodes.inb:
+    subnet: 10.10.12.11-10.10.12.13
+  cl13_masternodes.inb:
+    subnet: 10.10.13.11-10.10.13.13
+  bmcl01_masternodes.nl:
+    subnet: 10.11.1.11-10.10.1.13
+  bmcl02_masternodes.nl:
+    subnet: 10.11.2.11-10.10.2.13
+  bmcl03_masternodes.nl:
+    subnet: 10.11.3.11-10.10.3.13
+  bmcl11_masternodes.inb:
+    subnet: 10.11.11.11-10.10.11.13
+  bmcl12_masternodes.inb:
+    subnet: 10.11.12.11-10.10.12.13
+  bmcl13_masternodes.inb:
+    subnet: 10.11.13.11-10.10.13.13
