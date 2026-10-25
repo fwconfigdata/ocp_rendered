@@ -1,0 +1,89 @@
+addresses:
+  cl01_apiserver.nl.qa:
+    ip: 172.16.1.6
+  cl01_l7ingress.nl.qa:
+    ip: 172.16.1.7
+  cl02_apiserver.nl.qa:
+    ip: 172.16.2.6
+  cl02_l7ingress.nl.qa:
+    ip: 172.16.2.7
+  cl03_apiserver.nl.qa:
+    ip: 172.16.3.6
+  cl03_l7ingress.nl.qa:
+    ip: 172.16.3.7
+  cl11_apiserver.inb.qa:
+    ip: 172.16.11.6
+  cl11_l7ingress.inb.qa:
+    ip: 172.16.11.7
+  cl12_apiserver.inb.qa:
+    ip: 172.16.12.6
+  cl13_l7ingress.inb.qa:
+    ip: 172.16.13.7
+  bmcl01_apiserver.nl.qa:
+    ip: 172.17.1.6
+  bmcl01_l7ingress.nl.qa:
+    ip: 172.17.1.7
+  bmcl02_apiserver.nl.qa:
+    ip: 172.17.2.6
+  bmcl02_l7ingress.nl.qa:
+    ip: 172.17.2.7
+  bmcl03_apiserver.nl.qa:
+    ip: 172.17.3.6
+  bmcl03_l7ingress.nl.qa:
+    ip: 172.17.3.7
+  bmcl11_apiserver.inb.qa:
+    ip: 172.17.11.6
+  bmcl11_l7ingress.inb.qa:
+    ip: 172.17.11.7
+  bmcl12_apiserver.inb.qa:
+    ip: 172.17.12.6
+  bmcl12_nodes.inb.qa:
+    subnet: 172.17.12.0/24
+  bmcl13_l7ingress.inb.qa:
+    ip: 172.17.13.7
+  cl01_nodes.nl.qa:
+    subnet: 172.16.1.0/24
+  cl02_nodes.nl.qa:
+    subnet: 172.16.2.0/24
+  cl03_nodes.nl.qa:
+    subnet: 172.16.3.0/24
+  cl11_nodes.inb.qa:
+    subnet: 172.16.11.0/24
+  cl12_nodes.inb.qa:
+    subnet: 172.16.12.0/24
+  cl13_nodes.inb.qa:
+    subnet: 172.16.13.0/24
+  bmcl01_nodes.nl.qa:
+    subnet: 172.17.1.0/24
+  bmcl02_nodes.nl.qa:
+    subnet: 172.17.2.0/24
+  bmcl03_nodes.nl.qa:
+    subnet: 172.17.3.0/24
+  bmcl11_nodes.inb.qa:
+    subnet: 172.17.11.0/24
+  bmcl13_nodes.inb.qa:
+    subnet: 172.17.13.0/24
+  cl01_masternodes.nl.qa:
+    subnet: 172.16.1.11-172.16.1.13
+  cl02_masternodes.nl.qa:
+    subnet: 172.16.2.11-172.16.2.13
+  cl03_masternodes.nl.qa:
+    subnet: 172.16.3.11-172.16.3.13
+  cl11_masternodes.inb.qa:
+    subnet: 172.16.11.11-172.16.11.13
+  cl12_masternodes.inb.qa:
+    subnet: 172.16.12.11-172.16.12.13
+  cl13_masternodes.inb.qa:
+    subnet: 172.16.13.11-172.16.13.13
+  bmcl01_masternodes.nl.qa:
+    subnet: 172.17.1.11-172.16.1.13
+  bmcl02_masternodes.nl.qa:
+    subnet: 172.17.2.11-172.16.2.13
+  bmcl03_masternodes.nl.qa:
+    subnet: 172.17.3.11-172.16.3.13
+  bmcl11_masternodes.inb.qa:
+    subnet: 172.17.11.11-172.16.11.13
+  bmcl12_masternodes.inb.qa:
+    subnet: 172.17.12.11-172.16.12.13
+  bmcl13_masternodes.inb.qa:
+    subnet: 172.17.13.11-172.16.13.13
