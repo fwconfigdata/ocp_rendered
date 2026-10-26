@@ -1,0 +1,71 @@
+- name: 102526T223820_06
+  source-list:
+  - group: DR-AAP-L
+  - group: INB-AAP-L
+  - group: IR-AAP-L
+  - group: NL-AAP-L
+  destination-list:
+  - group: INB-OCP_APISERVER-L
+  - group: NL-OCP_APISERVER-L
+  protocol-port-list:
+  - TCP-6443
+- name: 102526T234211_30
+  source-list:
+  - group: DR-AAP-L
+  - group: INB-AAP-L
+  - group: IR-AAP-L
+  - group: NL-AAP-L
+  destination-list:
+  - group: INB-OCP_L7_INGRESS-L
+  - group: NL-OCP_L7_INGRESS-L
+  protocol-port-list:
+  - TCP-443
+- name: 102526T234110_04
+  source-list:
+  - group: DR-AAP-L
+  - group: INB-AAP-L
+  - group: IR-AAP-L
+  - group: NL-AAP-L
+  destination-list:
+  - group: INB-OCPBM_APISERVER-L
+  - group: NL-OCPBM_APISERVER-L
+  protocol-port-list:
+  - TCP-6443
+- name: 102526T234949_17
+  source-list:
+  - group: DR-AAP-L
+  - group: INB-AAP-L
+  - group: IR-AAP-L
+  - group: NL-AAP-L
+  destination-list:
+  - group: INB-OCPBM_APISERVER-L
+  - group: NL-OCPBM_L7_INGRESS-L
+  protocol-port-list:
+  - TCP-443
+- name: 102626T003751_05
+  source-list:
+  - group: INB-OCP_NODES-L
+  - group: NL-OCP_NODES-L
+  destination-list:
+  - group: INB-HASHICORP_API-L
+  - group: NL-HASHICORP_API-L
+  protocol-port-list:
+  - TCP-443
+- name: 102526T235433_35
+  source-list:
+  - group: INB-OCP_NODES-L
+  - group: NL-OCP_NODES-L
+  destination-list:
+  - group: INB-LDAP_DS-L
+  - group: NL-LDAP_DS-L
+  protocol-port-list:
+  - TCP-636
+- name: 102526T235603_04
+  source-list:
+  - group: INB-OCPBM_NODES-L
+  - group: NL-OCPBM_NODES-L
+  destination-list:
+  - group: INB-LDAP_DS-L
+  - group: NL-LDAP_DS-L
+  protocol-port-list:
+  - TCP-636
