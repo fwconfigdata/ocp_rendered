@@ -1,72 +1,72 @@
 groups:
-  INB-OCPBM_APISERVER-<ES>:
+  INB-OCPBM_APISERVER-L:
     members:
     - bmcl11_apiserver.inb
     - bmcl12_apiserver.inb
-  INB-OCPBM_L7_INGRESS-<ES>:
+  INB-OCPBM_L7_INGRESS-L:
     members:
     - bmcl11_l7ingress.inb
     - bmcl13_l7ingress.inb
-  INB-OCPBM_MASTER_NODES-<ES>:
+  INB-OCPBM_MASTER_NODES-L:
     members:
     - bmcl11_masternodes.inb
     - bmcl12_masternodes.inb
     - bmcl13_masternodes.inb
-  INB-OCPBM_NODES-<ES>:
+  INB-OCPBM_NODES-L:
     members:
     - bmcl11_nodes.inb
     - bmcl12_nodes.inb
     - bmcl13_nodes.inb
-  INB-OCP_MASTER_NODES-<ES>:
+  INB-OCP_MASTER_NODES-L:
     members:
     - cl11_masternodes.inb
     - cl12_masternodes.inb
     - cl13_masternodes.inb
-  INB-OCP_NODES-<ES>:
+  INB-OCP_NODES-L:
     members:
     - cl11_nodes.inb
     - cl12_nodes.inb
     - cl13_nodes.inb
-  INB-OCP_L7_INGRESS-<ES>:
+  INB-OCP_L7_INGRESS-L:
     members:
     - cl11_l7ingress.inb
     - cl13_l7ingress.inb
-  NL-OCPBM_APISERVER-<ES>:
+  NL-OCPBM_APISERVER-L:
     members:
     - bmcl01_apiserver.nl
     - bmcl02_apiserver.nl
     - bmcl03_apiserver.nl
-  NL-OCPBM_L7_INGRESS-<ES>:
+  NL-OCPBM_L7_INGRESS-L:
     members:
     - bmcl01_l7ingress.nl
     - bmcl02_l7ingress.nl
     - bmcl03_l7ingress.nl
-  NL-OCPBM_MASTER_NODES-<ES>:
+  NL-OCPBM_MASTER_NODES-L:
     members:
     - bmcl01_masternodes.nl
     - bmcl02_masternodes.nl
     - bmcl03_masternodes.nl
-  NL-OCPBM_NODES-<ES>:
+  NL-OCPBM_NODES-L:
     members:
     - bmcl01_nodes.nl
     - bmcl02_nodes.nl
     - bmcl03_nodes.nl
-  NL-OCP_APISERVER-<ES>:
+  NL-OCP_APISERVER-L:
     members:
     - cl01_apiserver.nl
     - cl02_apiserver.nl
     - cl03_apiserver.nl
-  NL-OCP_L7_INGRESS-<ES>:
+  NL-OCP_L7_INGRESS-L:
     members:
     - cl01_l7ingress.nl
     - cl02_l7ingress.nl
     - cl03_l7ingress.nl
-  NL-OCP_MASTER_NODES-<ES>:
+  NL-OCP_MASTER_NODES-L:
     members:
     - cl01_masternodes.nl
     - cl02_masternodes.nl
     - cl03_masternodes.nl
-  NL-OCP_NODES-<ES>:
+  NL-OCP_NODES-L:
     members:
     - cl01_nodes.nl
     - cl02_nodes.nl
