@@ -1,72 +1,72 @@
 groups:
-  INB-OCPBM_APISERVER-<ES>:
+  INB-OCPBM_APISERVER-Q:
     members:
     - bmcl11_apiserver.inb.qa
     - bmcl12_apiserver.inb.qa
-  INB-OCPBM_L7_INGRESS-<ES>:
+  INB-OCPBM_L7_INGRESS-Q:
     members:
     - bmcl11_l7ingress.inb.qa
     - bmcl13_l7ingress.inb.qa
-  INB-OCPBM_MASTER_NODES-<ES>:
+  INB-OCPBM_MASTER_NODES-Q:
     members:
     - bmcl11_masternodes.inb.qa
     - bmcl12_masternodes.inb.qa
     - bmcl13_masternodes.inb.qa
-  INB-OCPBM_NODES-<ES>:
+  INB-OCPBM_NODES-Q:
     members:
     - bmcl11_nodes.inb.qa
     - bmcl12_nodes.inb.qa
     - bmcl13_nodes.inb.qa
-  INB-OCP_L7_INGRESS-<ES>:
+  INB-OCP_L7_INGRESS-Q:
     members:
     - cl11_l7ingress.inb.qa
     - cl13_l7ingress.inb.qa
-  INB-OCP_MASTER_NODES-<ES>:
+  INB-OCP_MASTER_NODES-Q:
     members:
     - cl11_masternodes.inb.qa
     - cl12_masternodes.inb.qa
     - cl13_masternodes.inb.qa
-  INB-OCP_NODES-<ES>:
+  INB-OCP_NODES-Q:
     members:
     - cl11_nodes.inb.qa
     - cl12_nodes.inb.qa
     - cl13_nodes.inb.qa
-  NL-OCPBM_APISERVER-<ES>:
+  NL-OCPBM_APISERVER-Q:
     members:
     - bmcl01_apiserver.nl.qa
     - bmcl02_apiserver.nl.qa
     - bmcl03_apiserver.nl.qa
-  NL-OCPBM_L7_INGRESS-<ES>:
+  NL-OCPBM_L7_INGRESS-Q:
     members:
     - bmcl01_l7ingress.nl.qa
     - bmcl02_l7ingress.nl.qa
     - bmcl03_l7ingress.nl.qa
-  NL-OCPBM_MASTER_NODES-<ES>:
+  NL-OCPBM_MASTER_NODES-Q:
     members:
     - bmcl01_masternodes.nl.qa
     - bmcl02_masternodes.nl.qa
     - bmcl03_masternodes.nl.qa
-  NL-OCPBM_NODES-<ES>:
+  NL-OCPBM_NODES-Q:
     members:
     - bmcl01_nodes.nl.qa
     - bmcl02_nodes.nl.qa
     - bmcl03_nodes.nl.qa
-  NL-OCP_APISERVER-<ES>:
+  NL-OCP_APISERVER-Q:
     members:
     - cl01_apiserver.nl.qa
     - cl02_apiserver.nl.qa
     - cl03_apiserver.nl.qa
-  NL-OCP_L7_INGRESS-<ES>:
+  NL-OCP_L7_INGRESS-Q:
     members:
     - cl01_l7ingress.nl.qa
     - cl02_l7ingress.nl.qa
     - cl03_l7ingress.nl.qa
-  NL-OCP_MASTER_NODES-<ES>:
+  NL-OCP_MASTER_NODES-Q:
     members:
     - cl01_masternodes.nl.qa
     - cl02_masternodes.nl.qa
     - cl03_masternodes.nl.qa
-  NL-OCP_NODES-<ES>:
+  NL-OCP_NODES-Q:
     members:
     - cl01_nodes.nl.qa
     - cl02_nodes.nl.qa
